@@ -59,3 +59,17 @@
   进入兼容模式后，控制模式选择操作转换至电脑上显示，具体操作方式与Surface Dial没有区别，旋钮自带的LCD屏幕转换为显示开发团队LOGO
   
 ![PXL_20221210_143029902](https://user-images.githubusercontent.com/74545593/206862324-fa6bd278-08ba-4d77-8d50-4dbb5c3f9ced.jpg)
+
+### 参考
+
+[scottbez1 / smartknob](https://github.com/scottbez1/smartknob)
+
+[AndreMiras / pycaw](https://github.com/AndreMiras/pycaw)
+
+[T-vK / ESP32-BLE-Keyboard](https://github.com/T-vK/ESP32-BLE-Keyboard)
+
+[lvgl / lvgl](https://github.com/lvgl/lvgl)
+
+[起个名字都要抢占 / ESP32-SurfaceDial](https://gitee.com/adamhxx/esp32-surface-dial)
+
+
