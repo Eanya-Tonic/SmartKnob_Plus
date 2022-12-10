@@ -1,0 +1,2 @@
+# SmartKnob_Plus
+基于原始SmartKnob固件开发的增强版固件，采用LVGL显示框架、启用蓝牙HID支持、兼容Surface Dial模式
