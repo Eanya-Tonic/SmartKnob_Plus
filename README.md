@@ -20,7 +20,7 @@
 
 2.启用蓝牙HID模式，支持控制音量、方向键滚动、切换歌曲（[src/bluetooth.h](https://github.com/Eanya-Tonic/SmartKnob_Plus/blob/main/src/bluetooth.h)）
 
-3.兼容Surface Dial模式，可以模拟Surface Dial操作电脑[lib/ESP32 BLE Keyboard/BleKeyboard.h](https://github.com/Eanya-Tonic/SmartKnob_Plus/blob/main/lib/ESP32%20BLE%20Keyboard/BleKeyboard.h)
+3.兼容Surface Dial模式，可以模拟Surface Dial操作电脑（[lib/ESP32 BLE Keyboard/BleKeyboard.h](https://github.com/Eanya-Tonic/SmartKnob_Plus/blob/main/lib/ESP32%20BLE%20Keyboard/BleKeyboard.h)）
 
 
 ### <a name="2">操作说明</a>
