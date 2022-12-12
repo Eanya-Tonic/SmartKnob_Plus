@@ -1,4 +1,5 @@
-# SmartKnob_Plus
+<p align="center"> <img src="https://github.com/Eanya-Tonic/SmartKnob_Plus/tree/main/src/images/logo.png" style="width:200px;" /> </p>  <h1 align="center">SmartKnob_Plus</h1>  <p align="center"> 一种开源输入设备 </p>
+
 基于原始SmartKnob固件开发的增强版固件，采用LVGL显示框架、启用蓝牙HID支持、兼容Surface Dial模式。
 
 *人机交互课程作业*
@@ -44,34 +45,34 @@
 #### <a name="5">0x02 功能菜单</a>
 
   长按即可调取功能菜单，功能菜单用于选取需要的功能，目前有音量控制、移动控制、媒体控制、兼容模式四个可选择的功能。通过左右滚动旋钮即可切换选项，短按旋钮可以确认选项。
-  
+
 ![PXL_20221210_142904857](https://user-images.githubusercontent.com/74545593/206861828-59ede72c-e30e-404b-ba1a-ecbb64df808a.jpg)
 ![PXL_20221210_142908443](https://user-images.githubusercontent.com/74545593/206861832-bc7aaafb-8286-4185-b36e-001e2a1d6bb0.jpg)
 
 #### <a name="6">0x03 移动控制</a>
 
   移动控制控制方向键上下左右，左右滚动旋钮默认激活上下方向键，短按旋钮切换旋钮控制上下方向键/左右方向键。
-  
+
 ![PXL_20221210_142937878](https://user-images.githubusercontent.com/74545593/206861949-8ac3fa3a-7767-46d2-b857-4e473ed8ebb6.jpg)
 
 #### <a name="7">0x04 媒体控制</a>
 
   控制媒体的暂停/播放、切换上一首/下一首，通过左右滚动旋钮切换上一首/下一首歌曲，短按控制暂停/播放。
-  
+
 ![PXL_20221210_142958255](https://user-images.githubusercontent.com/74545593/206862031-a673b7d2-7be5-4bd5-9bf3-afaff643a325.jpg)
 
 #### <a name="8">0x05 兼容模式</a>
 
   兼容模式即进入Surface Dial模拟模式，由于Surface Dial会占用长按功能，因此进入Surface Dial模式后只能通过重启SmartKnob回到常规模式。左右滚动旋钮可以实现确认按钮/取消按钮，在确认模式下短按即可进入兼容模式配置界面。
-  
+
 ![PXL_20221210_143006899](https://user-images.githubusercontent.com/74545593/206862112-7e9938bb-7a57-48f7-a181-e22c9f377170.jpg)
 
   在进入兼容模式前，允许用户自定义想要使用的阻尼模式，包括无阻尼、弱阻尼、强阻尼三个模式，用户可以在配置界面通过左右滚动选定选项，选定后短按旋钮可以正式启动兼容模式。
-  
+
  ![PXL_20221210_143025744](https://user-images.githubusercontent.com/74545593/206862231-ba8e050d-5fec-4acd-b2e0-6eb165802865.jpg)
 
   进入兼容模式后，控制模式选择操作转换至电脑上显示，具体操作方式与Surface Dial没有区别，旋钮自带的LCD屏幕转换为显示开发团队LOGO
-  
+
 ![PXL_20221210_143029902](https://user-images.githubusercontent.com/74545593/206862324-fa6bd278-08ba-4d77-8d50-4dbb5c3f9ced.jpg)
 
 ### <a name="9">参考</a>
@@ -85,5 +86,4 @@
 [lvgl / lvgl](https://github.com/lvgl/lvgl)
 
 [起个名字都要抢占 / ESP32-SurfaceDial](https://gitee.com/adamhxx/esp32-surface-dial)
-
 
