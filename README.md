@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://github.com/Eanya-Tonic/SmartKnob_Plus/blob/readme/src/images/logo.png" style="width:200px;" /> </p>  <h1 align="center">SmartKnob_Plus</h1>  <p align="center"> 一种开源输入设备 </p>
+<p align="center"> <img src="https://github.com/Eanya-Tonic/SmartKnob_Plus/blob/main/src/images/logo.png" style="width:200px;" /> </p>  <h1 align="center">SmartKnob_Plus</h1>  <p align="center"> 一种开源输入设备 </p>
 
 基于原始SmartKnob固件开发的增强版固件，采用LVGL显示框架、启用蓝牙HID支持、兼容Surface Dial模式。
 
