@@ -867,6 +867,12 @@ void gui_init(void)
 
     tft.begin();        /* TFT init */
     tft.setRotation(0); /* Landscape orientation */
+    
+    //背光控制
+    static const uint8_t LEDC_CHANNEL_LCE_BACKLIGHT = 0;
+    ledcSetup(LEDC_CHANNEL_LCE_BACKLIGHT, 5000, 16);
+    ledcAttachPin(PIN_LCD_BACKLIGHT, LEDC_CHANNEL_LCE_BACKLIGHT);
+    ledcWrite(LEDC_CHANNEL_LCE_BACKLIGHT, UINT16_MAX);
 
     lv_disp_buf_init(&disp_buf, buf, NULL, LV_HOR_RES_MAX * 10);
 
